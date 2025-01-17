@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  padding: 32px
+}
+
+.list {
+  display: flex;
+  flex-direction: column; 
+}
+
+.delete {
+  background: #f44336;
+  color: #fff;
+  border: 0;
+  padding: 2px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.flag {
+  margin-right: 8px;
+  text-indent:-9999px;
+}
+.item {
+  padding: 8px 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  min-width: 640px;
+}
